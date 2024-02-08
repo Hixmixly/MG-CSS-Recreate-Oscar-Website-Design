@@ -1,0 +1,21 @@
+.nav-image img {
+    position: absolute;
+    z-index: -2;
+    display: flex;
+    width: 200px;
+    align-content: center;
+}
+
+.nav-image2 img {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+}
+.nav {
+   display: flex;
+   flex-direction: row;
+   font-size:;
+   outline: red solid;
+color: blue;
+}

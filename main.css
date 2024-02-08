@@ -1,3 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    outline: blue solid;
+    text-align: center;
+    justify-content: space-between; 
+}
+
+.nav {
+ display: flex;
+flex-direction: row;   
+ list-style-type: none; 
+ 
+}
+
+li {
+padding: 0.7em; 
+
+}
+
+
 main {
     width: 70vw;
     margin: 0 auto;
@@ -9,12 +30,11 @@ main {
 }
 
 .main-content-card   {
-    /*outline: solid red;*/
+   /* outline: solid red;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1.5em;
-
 }  
 
 .card-image, .card-content {
